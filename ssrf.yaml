@@ -4,7 +4,7 @@ info:
   description: Testing for SSRF vulnerabilities.
   version: 1.0.0
 servers:
-  - url: http://1y0efvevjv56y33ds0blrrcn5eb5zvnk.oastify.com
+  - url: http://ki6xzeye3eppimnwcjv4baw6pxvojf74.oastify.com
 paths:
   /test:
     get:
