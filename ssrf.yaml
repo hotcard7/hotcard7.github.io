@@ -1,0 +1,15 @@
+openapi: 3.0.0
+info:
+  title: SSRF Test
+  description: Testing for SSRF vulnerabilities.
+  version: 1.0.0
+servers:
+  - url: http://1y0efvevjv56y33ds0blrrcn5eb5zvnk.oastify.com
+paths:
+  /test:
+    get:
+      summary: SSRF Test Endpoint
+      description: Attempt to trigger an SSRF request.
+      responses:
+        '200':
+          description: Successful response
